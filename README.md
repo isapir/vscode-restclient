@@ -1,5 +1,25 @@
 # REST Client
 
+## Installation
+
+This is a fork of Huachao Mao's extension as it has not been updated for some time and I needed some bug fixes that were crucial for me.
+
+To install it, follow the steps below:
+
+1. Download the `.vsix` file from the [Latest Release](https://github.com/isapir/vscode-restclient/releases/latest)
+1. Open the Command Palette in VSCode / Codium and type "vsix"
+1. Choose "Extensions: Install from VSIX" and choose the file that you downloaded in step 1
+
+To package the extenion yourself:
+
+1. Install VSCE if you do not have it using `sudo npm install -g @vscode/vsce`
+1. Download the source code via `git clone` or by downloading the ZIP archive
+1. Go into the directory of the source code in a terminal window
+1. Run `npm install`
+1. Run `vsce package`
+
+---
+
 [![Open in Visual Studio Code](https://img.shields.io/static/v1?logo=visualstudiocode&label=&message=Open%20in%20Visual%20Studio%20Code&labelColor=2c2c32&color=007acc&logoColor=007acc)](https://open.vscode.dev/Huachao/vscode-restclient) [![Node CI](https://github.com/Huachao/vscode-restclient/workflows/Node%20CI/badge.svg?event=push)](https://github.com/Huachao/vscode-restclient/actions?query=workflow%3A%22Node+CI%22) [![Join the chat at https://gitter.im/Huachao/vscode-restclient](https://badges.gitter.im/Huachao/vscode-restclient.svg)](https://gitter.im/Huachao/vscode-restclient?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Marketplace Version](https://vsmarketplacebadges.dev/version-short/humao.rest-client.svg)](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) [![Downloads](https://vsmarketplacebadges.dev/downloads-short/humao.rest-client.svg
 )](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) [![Installs](https://vsmarketplacebadges.dev/installs-short/humao.rest-client.svg)](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) [![Rating](https://vsmarketplacebadges.dev/rating-short/humao.rest-client.svg)](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
 
