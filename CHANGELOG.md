@@ -1,3 +1,8 @@
+## 0.26.1
+* __Bug Fix__: Fixed curl parsing error that broke curl requests
+## 0.26.0
+* __Feature__: Preview HTML of http response
+* __Bug Fix__: Various features and bug fixes by Huachao
 ## 0.25.1 (2022/07/06)
 * __Bug Fix__: [Fix request parse error for curl request without body](https://github.com/Huachao/vscode-restclient/issues/1026)
 
